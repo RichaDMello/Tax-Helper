@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe3ee"/>
+      <stop offset="0.55" stop-color="#fff8fb"/>
+      <stop offset="1" stop-color="#ffe8b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="54" fill="url(#g)"/>
+  <circle cx="180" cy="160" r="80" fill="#e7568b" opacity="0.16"/>
+  <circle cx="1010" cy="730" r="130" fill="#f4b942" opacity="0.18"/>
+  <path d="M600 255 C548 178 420 207 420 323 C420 455 600 552 600 552 C600 552 780 455 780 323 C780 207 652 178 600 255Z" fill="#e7568b" opacity="0.22"/>
+  <text x="600" y="390" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800" fill="#b82e66" text-anchor="middle">Missing Photo</text>
+  <text x="600" y="465" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="600" fill="#725967" text-anchor="middle">Check the filename in src/config.js</text>
+  <text x="600" y="805" font-family="Inter, Arial, sans-serif" font-size="24" fill="#725967" text-anchor="middle">Put your real image in assets/photos and update src/config.js</text>
+</svg>
